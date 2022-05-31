@@ -1,6 +1,8 @@
 # Mastermind
 
-Jeu Mastermind dans le terminal
+Jeu Mastermind dans le terminal (pour pas faire un morpion :-) )
+
+![](./doc/mastermind.png)
 
 ## Comment jouer
 
@@ -26,5 +28,5 @@ Changez votre réponse en conséquence afin de résoudre la composition secréte
 ## Développement
 
 - Nous avons décidé de reprendre la logique du jeu mastermind et de l'écrire en clojure.
-- Nous avons trouvé une méthode pour transformer une string en vecteur de mot clé que nous avons décidé d'utiliser pour gérer les couleurs et les indications
-
+- Nous avons trouvé une méthode pour transformer une string en vecteur de mot clé que nous avons décidé d'utiliser pour gérer les couleurs et les indications dans le code
+- Nous avons utilisé leiningen pour l'automatisation du projet
